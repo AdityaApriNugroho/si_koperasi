@@ -6,5 +6,5 @@ class ListModel extends Model
     protected $table            = 'todo_list';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['desk','deadline','type'];
 }

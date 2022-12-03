@@ -2,26 +2,12 @@
     
 <?= $this->section('content'); ?>
         <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-                <p>X</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3>6</h3>
 
                 <p>Anggota</p>
               </div>
@@ -36,7 +22,7 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>65</h3>
+                <h3>4</h3>
 
                 <p>Pegawai</p>
               </div>
@@ -68,8 +54,8 @@
                       </span>
                       <!-- checkbox -->
                       <div  class="icheck-primary d-inline ml-2">
-                        <input type="checkbox" value="" name="todo1" id="todoCheck1">
-                        <label for="todoCheck1"></label>
+                        <input type="checkbox" value="" name="" id=<?=$l['type'] ?>>
+                        <label for=<?=$l['type'] ?>></label>
                       </div>
                       <!-- todo text -->
                       <span class="text"><?=$l['desk'] ?></span>
@@ -86,7 +72,7 @@
               </div>
               <!-- /.card-body -->
               <div class="card-footer clearfix">
-                <button type="button" class="btn btn-primary float-right"><i class="fas fa-plus"></i> Add item</button>
+                <a href='tambah_list'><button type="button" class="btn btn-primary float-right"><i class="fas fa-plus"></i> Add item</button></a>
               </div>
             </div>
 <?= $this->endSection(); ?>

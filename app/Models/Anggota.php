@@ -6,5 +6,5 @@ class Anggota extends Model
     protected $table            = 'anggota';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['nama','jenis_kelamin','alamat'];
 }

@@ -41,12 +41,6 @@
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li>
     </ul>
 
     <!-- Right navbar links -->
@@ -99,7 +93,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="/assets/AdminLTE/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/assets/AdminLTE/dist/img/megachan.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Admin</a>
@@ -122,8 +116,8 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="Pages" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a href="Pages" class="nav-link ">
+              <i class="nav-icon fas fa-home"></i>
               <p>
                 Dashboard
               </p>
@@ -149,33 +143,25 @@
             <a href="#" class="nav-link">
               <i class="nav-icon"></i>
               <p>
-                Angsuran
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon"></i>
-              <p>
                 Simpanan
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                <a href="pokok" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simpanan Pokok</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/mailbox/compose.html" class="nav-link">
+                <a href="wajib" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simpanan Wajib</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/mailbox/read-mail.html" class="nav-link">
+                <a href="sukarela" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Simpanan Sukarela</p>
                 </a>

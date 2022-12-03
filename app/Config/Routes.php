@@ -36,9 +36,25 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
+$routes->post('login', 'Index::auth');
 $routes->get('Pages', 'Pages::index');
 $routes->get('anggota', 'Pages::anggota');
 $routes->get('pegawai', 'Pages::pegawai');
+$routes->get('pokok', 'Pages::simpanan_pokok');
+$routes->get('wajib', 'Pages::simpanan_wajib');
+$routes->get('sukarela', 'Pages::simpanan_sukarela');
+$routes->get('tambah_list', 'Pages::tambah_list');
+$routes->post('save_list', 'Pages::save_list');
+$routes->get('tambah_anggota', 'Pages::tambah_anggota');
+$routes->post('save_anggota', 'Pages::save_anggota');
+$routes->get('tambah_pegawai', 'Pages::tambah_pegawai');
+$routes->post('save_pegawai', 'Pages::save_pegawai');
+$routes->get('tambah_pokok', 'Pages::tambah_pokok');
+$routes->post('save_pokok', 'Pages::save_pokok');
+$routes->get('tambah_wajib', 'Pages::tambah_wajib');
+$routes->post('save_wajib', 'Pages::save_wajib');
+$routes->get('tambah_sukarela', 'Pages::tambah_sukarela');
+$routes->post('save_sukarela', 'Pages::save_sukarela');
 
 /*
  * --------------------------------------------------------------------

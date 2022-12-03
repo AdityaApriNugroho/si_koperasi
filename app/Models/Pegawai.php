@@ -6,5 +6,5 @@ class Pegawai extends Model
     protected $table            = 'pegawai';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['nik','nama','alamat','nohp'];
 }
